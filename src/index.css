@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #09192a;
+}
+.app {
+    position: relative;
+    margin: auto;
+    max-width: 42rem;
+    padding: 2.625rem 1.3125rem;
+    color: rgb(243, 246, 249);
+}
+
+.app header {
+    margin-bottom: 2.625rem;
+}
+
+.avatar-view {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.625rem;
+    color: rgb(178, 186, 194);
+}
+.avatar-view a {
+    text-decoration: underline;
+    color: rgb(102, 178, 255);
+}
+.avatar-view div:nth-child(2) {
+    margin-left: 12px;
+}
+.button-list {
+    display: none;
+}
+.button-list button {
+    margin-right: 24px;
+}
+
+.article {
+    display: block;
+    cursor: pointer;
+    margin-top: 3.5rem;
+    font-size: 1.75rem;
+    margin-bottom: 0.4375rem;
+    color: #fff;
+}
+
+.article-title {
+    font-size: 1.75rem;
+}
+
+.subtitle {
+    margin-top: 12px;
+    font-size: 1rem;
+    color: rgb(178, 186, 194);
+}
